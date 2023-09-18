@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<!-- Mirrored from www.newyorkdebtrelief.org/updates/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 09 May 2023 08:53:39 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<script type="text/javascript" src="../track/milestone/milestone.js"></script>
+
+<script type="text/javascript">
+var original_level = 0;
+var current_level = 0;
+function log_level(desired_level,action,lead_type_id=null) {
+    if (typeof(jQuery) != "undefined") {
+        $.ajax({
+            type: "POST",
+            dataType: "json",
+            url: "/track/level/", //Relative or absolute path to response.php file
+            data: {
+                "level": desired_level,
+                "action": action,
+                "lead_type_id": lead_type_id
+            },
+            success: function(data) {
+                var event_string = "ind"+data.payload.lead_type_id+"_level"+data.payload.level;
+                current_level = data.payload.level;
+                if (typeof(dataLayer) != "undefined") {
+                    dataLayer.push({"event": event_string});
+                }
+            }
+        });
+    }
+}
+setTimeout(function() {
+    log_level(1,"10 Second View");
+}, 10000)
+</script>
+
+<script>
+    dataLayer = [{
+        "category_id": 9649,
+        "page_id": 29560,
+        "template_id": 5205,
+        "hop": 2,
+        "element_key": "|20367|",
+        "engine_id": 1,
+        "device_type": "Desktop",
+        "site_id": 75,
+        "cookie_id": "e74440a94ce1c3918de19ede7f74f051",
+        "lead_type_id": 1,
+        "lead_type_name": "Debt Relief",
+        "keyword_theme": "Financial Assistance/Help",
+        "channel": "Google Search",
+        "person_id": ""
+    }];
+    function addFrameEvent(el, evt, fn) {
+      if (el.addEventListener) {
+        el.addEventListener(evt, fn);
+      } else if (el.attachEvent) {
+        el.attachEvent('on' + evt, function(evt) {
+          fn.call(el, evt);
+        });
+      } else if (typeof el['on' + evt] === 'undefined' || el['on' + evt] === null) {
+        el['on' + evt] = function(evt) {
+          fn.call(el, evt);
+        };
+      }
+    }
+    addFrameEvent(window, 'message', function(message) {
+        if (message.data.type === 'gtmDataLayer') {
+            dataLayer.push(message.data.dataLayer);
+        }
+    });
+    
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'../../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W2N4PPR');</script>
+<!-- End Google Tag Manager -->
+
+        <title>Update for New York Residents</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <link rel="canonical" href="index.html">
+        <meta property="og:title" content="Live Your Life" />
+        <meta property="og:image" content="https://www.envoyhub.com/images/branded_social_icons/NYDR_FB_Icon_720x720.png" />
+        <meta property="og:url" content="https://www.newyorkdebtrelief.org" />
+        <script src="../../ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- uncoment if favicon pack is available, Place in root; favicon, apple-touch-icon.png
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+        <link rel="manifest" href="/images/site.webmanifest">
+        <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        -->
+        <style id='fonts'>@font-face {font-family: 'Assistant'; font-style: normal; font-weight: 400; src: local(''), url('https://www.envoyhub.com/fonts/assistant-v6-latin-regular.woff2') format('woff2'), url('https://www.envoyhub.com/fonts/assistant-v6-latin-regular.woff') format('woff'); font-display:swap;} @font-face { font-family: 'Assistant'; font-style: normal; font-weight: 700; src: local(''), url('https://www.envoyhub.com/fonts/assistant-v6-latin-700.woff2') format('woff2'), url('https://www.envoyhub.com/fonts/assistant-v6-latin-700.woff') format('woff'); font-display:swap;}</style>        <style id="defaults">
+            /* CTA/top section setup */
+            :root {
+                --branding-row-background:transparent;
+                --hero-row-background:transparent;
+                                 --cta-color:#000;
+                --cta-bullets-bg:rgba(0,0,0,0.12);
+                --cta-text-shadow:none;
+                --cta-bullets-color:invert(30%) sepia(24%) saturate(3315%) hue-rotate(181deg) brightness(81%) contrast(102%);/* blue */
+                                --list-scale:0.9;
+            }
+            @media screen and (min-width:800px) {
+                :root {
+                    --list-scale:1.1;
+                }
+            }
+            main {font-size:1.15rem; position:relative; background:#fff; box-shadow:0px 2px 2px rgba(0, 0, 0, 0.15); padding:15px 15px 35px 15px;}
+            /* optional classes on 'main' to add contrast at top or bottom of main image */
+            .tint-top:before {background-image: linear-gradient(rgba(0,0,0,0.6) 10px, rgba(0,0,0,0.0)  30%); content: ""; height: 40%; position: absolute; width: 100%; z-index:1;}
+            .tint-bottom:after {background-image: linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,0.8) 100%); content: ""; height: 150px; position: absolute; width: 100%; bottom:0;}
+            @media screen and (min-width:800px) {
+            main {font-size:1rem; max-width:700px; border-radius:8px; margin:20px auto; overflow:hidden; padding:25px 55px;}
+            .tint-top:before {background-image: linear-gradient(rgba(0,0,0,0.6) 10px, rgba(0,0,0,0.0)  30%); content: none; height: 100%; position: absolute; width: 100%; z-index:1;}
+            .tint-bottom:after {background-image: linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,0.8) 100%); content: ""; height: 150px; position: absolute; width: 100%; bottom:0;}
+            }
+            /* optional - how background image on 'main' interacts with background color of 'main' - https://developer.mozilla.org/en-US/docs/Web/CSS/background-blend-mode */
+            /* normal | multiply | screen | overlay | darken | lighten | color-dodge | color-burn | hard-light | soft-light | difference | exclusion | hue | saturation | color | luminosity */
+            .background-blend-mode {background-blend-mode:normal;}
+            @media screen and (min-width:800px) {
+            .background-blend-mode {}
+            }
+            /* siblings need z-index to be in front */
+            .backdrop-filter {
+            /* create layer */
+            position:absolute; top:0; right:0; bottom:0; left:0;
+            /* optional - apply effects https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter */
+            backdrop-filter:grayscale(0.4) blur(3px); 
+            /* optional - alpha mask to isolate where effect is applied - optional -webkit- required 11/2021 */
+            mask-image: linear-gradient(to right, rgba(0, 0, 0, 1.0) 50%, transparent 100%);
+            -webkit-mask-image: linear-gradient(to left, rgba(0, 0, 0, 1.0) 50%, transparent 100%);
+            /* optional - only way to simulate opacity of image - is affected by image mask 
+            background: linear-gradient(90deg, rgba(255,255,255,0.5), transparent);*/
+            }
+            .opacity-filter {position:absolute; top:0; right:0; bottom:0; left:0; background-image: linear-gradient(80deg, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.8) 100%);}
+            @media screen and (min-width:800px) {
+            .backdrop-filter {}
+            .opacity-filter {background-image: linear-gradient(80deg, rgba(255,255,255,1) 10px, transparent 100%);}
+            }
+            
+            .cta-bullets {margin-top:20px; margin-bottom:20px;  padding:20px 15px; background:var(--cta-bullets-bg,transparent); backdrop-filter:blur(10px)}
+            @media screen and (min-width:800px) {
+           
+            .cta-bullets {margin-top:20px; margin-left:-25px; border-radius:8px; padding:20px 15px; background:var(--cta-bullets-bg,transparent); backdrop-filter:blur(10px)}
+            .rounded-with-shadow {border-radius:12px; box-shadow:0px 2.7px 5.3px rgba(0, 0, 0, 0.101), 0px 8.9px 17.9px rgba(0, 0, 0, 0.149), 0px 40px 80px rgba(0, 0, 0, 0.25);}    
+            }
+            /* fine tuning */
+            @media screen and (min-width:800px) and (max-width:1000px) {
+           .innerContent {padding-left:10px!important; padding-right:10px!important;}
+           .cta-bullets {margin-left:0;}
+            }
+            @media screen and (min-width:1001px) and (max-width:1250px) {
+            .innerContent {padding-left:10px!important; padding-right:10px!important;}
+            .cta-bullets {margin-left:0;}
+            }
+            /* super wide desktop overrides */
+            @media screen and (min-width:2300px) {
+                main {background-size:2300px auto; background-position:top center;}
+            }
+            
+            
+            
+            
+            
+            
+            /* mobile first */
+            :root {--key-color:8,79,140;--key-color-hex:#084f8c;--accent-color-1:#fdb913;--font-color:#1c1c1c;--button-color-base:224,120,0;--font-family-sans:'Assistant', sans-serif;--font-family-serif:'Roboto Slab', Georgia, serif;--svg-key-color:invert(30%) sepia(24%) saturate(3315%) hue-rotate(181deg) brightness(81%) contrast(102%);                --swiper-theme-color: var(--key-color-hex);
+                --left-right-mobile-pad:0;
+                --left-right-desktop-pad:0;
+            }
+            /* mobile defaults... */
+            html {box-sizing: border-box;}
+            *, *:before, *:after {box-sizing: inherit; /*outline:1px solid red;*/}
+            html,body {background:#e8ebee; margin:0; padding:0; line-height: 1.5;}
+            body,input,textarea,select,button{font-family: var(--font-family-sans,sans-serif); color: var(--font-color,#000000);-webkit-text-size-adjust: 100%; font-size:100%;}
+            * {outline:none;}
+            .user-is-tabbing a:focus,
+            .user-is-tabbing button:focus,
+            .user-is-tabbing input:focus,
+            .user-is-tabbing textarea:focus,
+            .user-is-tabbing .rangeslider__remote_handle.focused,
+            .user-is-tabbing .select_normalized:focus,
+            .user-is-tabbing .checkradio-buttons + label:focus,
+            .user-is-tabbing .mobile-menu-trigger:focus,
+            .user-is-tabbing .swiper-pagination-bullet:focus
+            {
+            outline: auto 2px Highlight!important; 
+            outline: auto 5px -webkit-focus-ring-color!important;
+            outline: auto 5px -ms-focus-ring-color!important;
+            }
+            #primary_form {background:#fff; padding:0; max-width:600px; margin:0 auto;}
+            #primary_form iframe {display:block;}
+            #primary_form, #primary_form iframe {transition:.5s all ease-in-out;}
+            p {-ms-word-wrap: break-word;word-wrap: break-word;}
+            main p {padding-left:10px;}
+            p + ul, p + ol {padding-top:0; margin-top:-13px;}
+            ul, ol {}
+            li {margin-bottom:5px; line-height: 1.5;}
+            h1, h2, h3 {font-family:var(--font-family-sans,sans-serif); line-height:1.0;}
+            h1 + p {margin-top:-9px; padding-top:0;}
+            h2 + p, h3 + p {margin-top:-12px; padding-top:0;}
+            h4, h5, h6 {font-family:var(--font-family-serif,serif); line-height:1.2;}
+            h1 {font-size:1.8rem;}
+            h2 {font-size:1.5rem; margin-top:3rem;}
+            h3 {font-size:1.2rem; margin-top:1.4rem;}
+            h4 {font-size:1.0rem;}
+            h5 {font-size:1.0rem;}
+            h6 {font-size:1.0rem;}
+            a {color:rgb(var(--key-color,8,79,140));}
+            a[href^="tel:"], a[href^="sms:"] {text-decoration:inherit; color:inherit;}
+            .tcpa_disclosure, .ccpa_disclosure {font-size:11px!important; line-height:1.3!important; color:#757575!important; text-align:center!important; margin-top:20px!important;}
+            .center {text-align:center; margin-left:auto; margin-right:auto;}
+            /* + mobile first + */
+            .outerContent {padding:.1px;}
+            .innerContent {max-width:700px; background:transparent; margin:0 auto; padding:.1px 0 .1px 0;}
+            .innerContent h1, .innerContent h2, .innerContent h3, .innerContent h4, .innerContent h5, .innerContent h6, .innerContent p, .innerContent blockquote {padding-left:20px; padding-right:20px;}
+            
+            .outerContent.branding {width:100%; background:var(--branding-row-background,transparent);}
+            
+            .outerContent.branding.sticky {position:fixed; z-index:999; top:0;}
+            .branding .innerContent {width:100%; padding:15px 0 0 0; color:#fff; padding-left:var(--left-right-mobile-pad,10px); padding-right:var(--left-right-mobile-pad,10px); position:relative; z-index:1;}
+            .outerContent.hero {min-height:300px; /*transition:all 0.5s ease-in-out;*/ padding:10px 0 0 0;}
+            .hero .innerContent {min-height:300px; display:block; padding-left:var(--left-right-mobile-pad,10px); padding-right:var(--left-right-mobile-pad,10px); position:relative; z-index:1;}
+            .outerContent.main {}
+            .logo{width:100%; height:auto; max-width:250px; text-align:center; margin:0 auto; padding-right:10px; display:block; line-height:1;}
+            .logo-tag {color:var(--cta-color,#000); font-style:italic; font-size:.8rem; text-align:center; margin-bottom:5px; line-height:1.2;}
+            .logo img {width:250px; height:50px;}
+            header nav {display:block; background:rgba(255,255,255,1);}
+            header nav ul {display:none; padding:0; list-style:none; margin:0 0 0 0; box-shadow:inset 0 -3px 3px rgba(0,0,0,0.3);}
+            header nav ul li {padding:20px; margin:0; text-align:center; line-height:1; border-bottom:1px solid #ddd;}
+            header nav ul li:last-of-type {border-bottom:none}
+            header nav ul li a {color:#707070; text-decoration:none;}
+            header nav ul.sub-nav {padding:0; margin:0 0 80px 0; list-style:none; display:inline-block;}
+            header nav ul.sub-nav li {padding:0; margin:15px 0; text-align:left; font-size:1rem; line-height:1;}
+            header nav ul.sub-nav li:first-of-type {margin-top:7px;}
+            header nav ul.sub-nav li a {color:#178BB6; text-decoration:none;}
+            header nav ul.sub-nav li a:hover {color:#8CD000; text-decoration:none;}
+            /* + mobile first + */
+            header .phone {font-family: var(--font-family-sans,sans-serif); text-align:center; padding:5px 10px 10px 10px; color:var(--cta-color,#000); line-height:1.2;}
+            header .phone a { text-decoration:none; color:var(--cta-color,#000);}
+            /* Footer */
+            .outerContent.footer {background:#e8ebee; text-align:center; padding:10px 0 20px 0; margin-top:50px;}
+ 
+            .footer .innerContent {color:var(--font-color,#000); padding-right:20px; padding-left:20px;}
+            footer {font-family:var(--font-family-sans,sans-serif);}
+            footer nav > ul, footer nav > ul > li {padding:0; margin:0; list-style:none;}
+           
+            footer nav > ul > li {display:inline-block; margin:20px 0; }
+            @media screen and (max-width:500px) {
+                footer nav > ul > li {display:block;}
+            }
+            footer nav > ul > li > a {color:var(--font-color); text-decoration:underline; padding:6px 15px; border:none; border-radius:0; font-size:.9rem;}
+            footer nav > ul > li.boxy {display:block;}
+            footer nav > ul > li.boxy > a {color:var(--font-color,#000); text-decoration:none; padding:12px; border:2px solid rgba(var(--key-color,8,79,140),0.3); border-radius:5px; display:block; margin:15px 0; font-size:1rem;}
+            
+            blockquote {display: block; text-align:center; border-width: 4px 0; border-style: solid; border-color: #ddd; padding: 1.5rem 0 0.5rem; margin: 2rem 0 1rem 0; position: relative; width:100%; font-size:1.3rem; font-family:var(--font-family-serif,serif);}
+            blockquote:before {content: '\201C'; position: absolute; top: 0; left: 50%; transform: translate(-50%, 70%); filter: drop-shadow(4px 4px 4px white) drop-shadow(-4px -4px 4px white); width: 3rem; height: 2rem; font-size:7rem; line-height:1.08rem; font-family:Georgia,serif; color: rgba(var(--key-color,8,79,140),1); text-align: center;}
+            blockquote:after {content: "\2013\2003"attr(cite); display: block; text-align: right; font-size: 75%; color: rgba(var(--key-color,8,79,140),1); padding-top:10px;}
+            .legal {line-height:1.3; margin:15px 0 0 0; font-size:.85rem;}
+            .disclaimer {text-align:center; line-height:1.3; margin:6px 0 0 0; font-size:.85rem;}
+            .headline {/*inlined*/}
+            .sub-head {/*inlined*/}
+             /* + mobile first + */
+            input[type=submit], .button {
+              -webkit-appearance: none;
+              appearance: none;
+              display:block;
+              font-family:sans-serif;
+              font-family:var(--font-family-sans,sans-serif);
+              text-decoration:none;
+              border:0;
+              padding: 17px 25px;
+              margin:10px auto;
+              text-align: center;
+              border-radius: 8px;
+              background-color: rgba(var(--button-color-base,224,120,0),1);
+              color: #fff;
+              letter-spacing: 0px;
+              text-shadow: none;
+              font-size: 1.5rem;
+              line-height:1;
+              font-weight: bold;
+              cursor: pointer;
+              opacity:1;
+              min-width:245px;
+              /*box-shadow: 0px 4px 15px 0px rgba(var(--button-color-base,8,79,140),0.4);*/
+              transition-property: min-width, transform, border-radius;
+              transition-duration: 0.0s;
+              transition-timing-function: linear;
+              transform-origin:center center;
+              position:relative;
+              overflow:hidden;
+        }
+        .button_active_fancy {
+            pointer-events:none;
+            transition-delay: 0.5s;
+            transition-duration: 0.3s;
+            padding:13px!important;
+            min-width:0px!important;
+            border-radius:100px!important;
+            font-size:0!important;
+        }
+        .button_active_fancy img {
+            display:none;
+        }
+        .button.button_active_fancy .loader {
+            display:block;
+        }
+        .button_darken {
+            filter:brightness(75%);
+            pointer-events:none;
+        }
+        .button.disabled, input[type=submit].disabled {
+            opacity:0.5!important;
+            filter:blur(0.65px);
+            box-shadow:none!important;
+            pointer-events:none!important;
+            animation:none!important;
+        }
+        .ripple {
+          transform: translate3d(0, 0, 0);
+        }
+        .ripple:after {
+          content:'';
+          display: block;
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          background-image: radial-gradient(circle, #fff 10%, transparent 10.01%);
+          background-repeat: no-repeat;
+          background-position: 50%;
+          transform: scale(10, 10);
+          opacity: 0;
+          transition: transform .5s, opacity 1s;
+        }
+        .ripple:active:after {
+          transform: scale(0, 0);
+          opacity: .3;
+          transition: 0s;
+        }
+        .pulse {
+            box-shadow: 0px 4px 15px 0px rgba(var(--button-color-base,224,120,0),0.4), 0px 0px 0px 0px rgba(var(--button-color-base,224,120,0),0.0);
+            -webkit-animation: pulseButton 3s infinite;
+        }
+        @keyframes pulseButton {
+          0% {
+              box-shadow: 0px 4px 15px 0px rgba(var(--button-color-base,224,120,0),0.4), 0px 0px 0px 0px rgba(var(--button-color-base,224,120,0),0.5);
+          }
+          30% {
+              box-shadow: 0px 4px 15px 0px rgba(var(--button-color-base,224,120,0),0.4), 0px 0px 10px 20px rgba(var(--button-color-base,224,120,0),0.0);
+          }
+          100% {
+              box-shadow: 0px 4px 15px 0px rgba(var(--button-color-base,224,120,0),0.4), 0px 0px 0px 0px rgba(var(--button-color-base,224,120,0),0.0);
+          }
+        }
+        
+        .svg-key-color-filter {filter:var(--svg-key-color,invert(30%) sepia(24%) saturate(3315%) hue-rotate(181deg) brightness(81%) contrast(102%));}
+        
+        .mobile-menu-trigger {cursor:pointer; display:block; position:absolute; top:16px; right:10px; padding:4px; border:none; background:transparent;}
+        .burger-menu-icon {
+          width: 30px;
+          height: 22px;
+          position: relative;
+          margin: auto;
+          transition: .5s ease-in-out;
+          cursor: pointer;
+        }
+        .burger-menu-icon span {
+          display: block;
+          position: absolute;
+          height: 4px;
+          width: 50%;
+          background: #ffffff;
+          opacity: 1;
+          transform: rotate(0deg);
+          transition: .25s ease-in-out;
+        }
+        .burger-menu-icon span:nth-child(even) {
+          left: 50%;
+          border-radius: 0 4px 4px 0;
+        }
+        .burger-menu-icon span:nth-child(odd) {
+          left:0px;
+          border-radius: 4px 0 0 4px;
+        }
+        .burger-menu-icon span:nth-child(1), .burger-menu-icon span:nth-child(2) {
+          top: 0px;
+        }
+        .burger-menu-icon span:nth-child(3), .burger-menu-icon span:nth-child(4) {
+          top: 9px;
+        }
+        .burger-menu-icon span:nth-child(5), .burger-menu-icon span:nth-child(6) {
+          top: 18px;
+        }
+        .burger-menu-icon.open span:nth-child(1),.burger-menu-icon.open span:nth-child(6) {
+          transform: rotate(45deg);
+        }
+        .burger-menu-icon.open span:nth-child(2),.burger-menu-icon.open span:nth-child(5) {
+          transform: rotate(-45deg);
+        }
+        .burger-menu-icon.open span:nth-child(1) {
+          left: 3px;
+          top: 3px;
+        }
+        .burger-menu-icon.open span:nth-child(2) {
+          left: calc(50% - 3px);
+          top: 3px;
+        }
+        .burger-menu-icon.open span:nth-child(3) {
+          left: -50%;
+          opacity: 0;
+        }
+        .burger-menu-icon.open span:nth-child(4) {
+          left: 100%;
+          opacity: 0;
+        }
+        .burger-menu-icon.open span:nth-child(5) {
+          left: 2px;
+          top: 14px;
+        }
+        .burger-menu-icon.open span:nth-child(6) {
+          left: calc(50% - 3px);
+          top: 14px;
+        }
+        .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; }
+        .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+        svg#sprite {display:block; height:0; margin:0 auto;} /* hack to eliminate extra space created by SVG zone */
+        
+        /* / mobile first */
+        .list-scale {var(--list-scale);}
+        .list-svg {padding-left:0; margin:0 auto 0 auto; list-style:none; font-family: var(--font-family-sans,sans-serif); text-align:left; width:fit-content;}
+        .list-svg li {font-size:calc(100% * var(--list-scale)); line-height:1.3; margin-bottom:calc(0.75rem * var(--list-scale)); padding-left:calc(30px * var(--list-scale));}
+        .list-svg li div {float:left; transform:translateY(-8%); margin-left:calc(-1 * calc(30px * var(--list-scale))); width:calc(23px * var(--list-scale)); height:calc(23px * var(--list-scale));}
+        .list-svg-caption {font-style:italic; font-size:calc(107% * var(--list-scale)); line-height:1.3; margin-bottom:calc(1rem * var(--list-scale)); font-family: var(--font-family-sans,sans-serif);}
+        /* icon options */
+        .list-svg .icon-checkmark-casual-circle {background:url('https://www.envoyhub.com/images/svg/checkmark-casual-circle.svg') no-repeat center center; background-size:contain;}
+        .list-svg .icon-checkmark-clipboard {background:url('https://www.envoyhub.com/images/svg/checkmark-clipboard.svg') no-repeat center center; background-size:contain;}
+        .list-svg .icon-star-1 {background:url('https://www.envoyhub.com/images/svg/star-1.svg') no-repeat center 25%; background-size:70%;}
+        .list-svg .icon-checkmark-brushy {background:url('https://www.envoyhub.com/images/svg/checkmark-brushy.svg') no-repeat center center; background-size:contain;}
+        .list-svg .icon-checkmark-open {background:url('https://www.envoyhub.com/images/svg/checkmark-circle-open.svg') no-repeat center center; background-size:contain;}
+        .list-svg .icon-checkmark-circle {background:url('https://www.envoyhub.com/images/svg/checkmark-classic-circle.svg') no-repeat center center; background-size:contain;}
+        .list-svg .icon-checkmark-modern {background:url('https://www.envoyhub.com/images/svg/checkmark-modern-circle.svg') no-repeat center center; background-size:contain;}
+        .list-svg .icon-checkmark-simple {background:url('https://www.envoyhub.com/images/svg/checkmark-simple.svg') no-repeat center center; background-size:contain;}
+        .list-svg .icon-checkmark-todo {background:url('https://www.envoyhub.com/images/svg/checkmark-todo.svg') no-repeat center center; background-size:contain;}
+        .list-svg .icon-checkmark-ui {background:url('https://www.envoyhub.com/images/svg/checkmark-ui.svg') no-repeat center center; background-size:contain;}
+        .list-svg .icon-checkmark-shield {background:url('https://www.envoyhub.com/images/svg/checkmark-shield.svg') no-repeat center center; background-size:contain;}
+        .list-svg li:nth-of-type(1) .icon-checkmark-number {background:url('https://www.envoyhub.com/images/svg/circle-1.svg') no-repeat center center; background-size:90%;}
+        .list-svg li:nth-of-type(2) .icon-checkmark-number {background:url('https://www.envoyhub.com/images/svg/circle-2.svg') no-repeat center center; background-size:90%;}
+        .list-svg li:nth-of-type(3) .icon-checkmark-number {background:url('https://www.envoyhub.com/images/svg/circle-3.svg') no-repeat center center; background-size:90%;}
+        .list-svg li:nth-of-type(4) .icon-checkmark-number {background:url('https://www.envoyhub.com/images/svg/circle-4.svg') no-repeat center center; background-size:90%;}
+        /* desktop */
+        @media screen and (min-width:800px) {
+        .list-svg {flex:1 1 33%; width:auto; margin-left:20px;}
+        .list-svg-caption {padding-left:10px;}
+        }
+        
+        /* add a color class as short cut to using .svg-key-color-filter */
+        .list-svg li div.orange {filter: invert(34%) sepia(92%) saturate(1686%) hue-rotate(23deg) brightness(112%) contrast(101%)}
+        .list-svg li div.green {filter: invert(59%) sepia(83%) saturate(4514%) hue-rotate(77deg) brightness(96%) contrast(102%)}
+        .list-svg li div.blue {filter: invert(30%) sepia(24%) saturate(3315%) hue-rotate(181deg) brightness(81%) contrast(102%)}
+        .list-svg li div.white {filter: invert(100%) sepia(12%) saturate(7452%) hue-rotate(182deg) brightness(111%) contrast(111%);}
+        
+        .image-block {position:relative; margin:20px -15px 20px -20px;}
+        .image-quote {position:absolute; bottom:7px; left:0; width:100%; color:#fff; text-align:center; z-index:2; padding:30px 5% 20px 5%; font-style:italic; font-size:1.1rem; line-height:1.2; font-family:var(--font-family-serif); background-image: linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,0.8) 100%);}
+        .arrow-after-image {position:absolute; bottom:-12px; left:6%; width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 20px 15px 0 15px;
+            border-color: #000000 transparent transparent transparent;
+        }
+        
+        
+        
+        
+        
+        /* begin desktop overrides */
+        @media screen and (min-width:800px) {
+            html,body,input,textarea,select,button {font-size:107%;}
+            main p {padding-left:0;}
+            ul, ol {padding-left:40px;}
+            h1 {font-size:2.0rem;}
+            a:hover {text-decoration:underline;}
+            .outerContent.footer {font-size:.8rem;}
+            .branding .innerContent {width:100%; display:flex; flex-direction:row; flex-wrap:nowrap; justify-content:space-between; align-items:center; padding:10px 0; color:#fff; padding-left:var(--left-right-desktop-pad,0); padding-right:var(--left-right-desktop-pad,0); position:relative; z-index:1;}
+            .outerContent.hero {min-height:400px; background:var(--hero-row-background); padding:10px 0 30px 0;}
+            .hero .innerContent {min-height:400px; display:flex; justify-content:space-between; align-items:flex-start; padding-left:var(--left-right-desktop-pad,0); padding-right:var(--left-right-desktop-pad,0); position:relative; z-index:1;}
+            .footer .innerContent a:hover {text-decoration:underline dotted;}
+            .logo {flex:0 0 300px; padding:0; max-width:300px;}
+            .logo-tag {font-size:.8rem;}
+            .logo img {width:300px; height:50px;}
+            header nav {background:transparent; margin:0 0 0 0;}
+            header nav ul {margin:0 0 0 0; display:flex; flex-direction:row; flex-wrap:nowrap; justify-content:space-around; align-items: center; box-shadow:none;}
+            header nav ul li {margin:0; border:none;}
+            header nav ul li:last-of-type {}
+            header nav ul li a {color:#fff; padding:6px 10px;}
+            header nav ul li a:hover {color:#fff; background:rgba(255,255,255,0.2); text-decoration:none; border-radius:4px;}
+            footer nav {padding:20px 0 20px 0;}
+            footer nav > ul, footer nav > ul > li {display:inline!important;}
+            footer nav > ul > li > a, footer nav > ul > li.boxy a {text-decoration:underline; padding:6px 15px; border:none; border-radius:0; display:inline; margin:0; font-size:.9rem;}
+            .mobile-menu-trigger {display:none;}
+            header .phone {padding:0 3px 0 15px; text-decoration:none; white-space:nowrap;}
+            .legal {font-family:var(--font-family-sans,sans-serif); line-height:1.3; margin:15px 0 10px 0;}
+            .disclaimer {}
+            .form_focus {box-shadow: 0 0 3px 5px rgba(var(--key-color,8,79,140),1);}
+            .headline {font-size:2.5rem!important;}
+            .sub-head {font-size:2rem!important;}
+            .image-block {margin:0 -55px 25px -55px;}
+            .image-quote {font-size:1.3rem; line-height:1.2;}
+            .arrow-after-image {left:8%;
+        }
+       
+        /* when max width = window width override */
+        @media screen and (min-width:700px) {
+            .innerContent h1, .innerContent h2, .innerContent h3, .innerContent h4, .innerContent h5, .innerContent p {padding-left:0; padding-right:0;}
+        }
+        
+        </style>
+        <script>
+            // force console error fix
+            if (typeof dataLayer === 'undefined') { 
+               var dataLayer = [];
+            }
+        </script>
+    </head>
+    <body>
+<script type="text/javascript">
+var bet_site_id = 75;
+var bet_cms_log_guid = "5d91dc0c2bdcb1ad7d991b12337e3522";
+var bet_form_log_guid = "";
+</script>
+<script type="text/javascript" src="../track/browser_events/main3860.js?v=1"></script>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W2N4PPR&amp;category_id=9649&amp;page_id=29560&amp;template_id=5205&amp;hop=2&amp;element_key=%7C20367%7C&amp;engine_id=1&amp;device_type=Desktop&amp;site_id=75&amp;cookie_id=e74440a94ce1c3918de19ede7f74f051&amp;lead_type_id=1&amp;lead_type_name=Debt+Relief&amp;keyword_theme=Financial+Assistance%2FHelp&amp;channel=Google+Search&amp;person_id="
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+        <!-- ZONE_ID: 5583 - ELEMENT_ID: 20367 BEGIN -->
+<span class="cms_element_wrapper" data-zone_id="5583" data-element_id="20367">
+</span>
+<!-- ZONE_ID: 5583 - ELEMENT_ID: 20367 END --><!-- replacers -->
+                
+        <div>
+        <main class="" style="">
+
+       <h1 style="text-align:center; line-height:1.1;">Update for New York Residents</h1>
+        
+       <div class="image-block">
+        <img src="../../www.envoyhub.com/images/see-savings-finger-update.png" style="width:100%; max-width:800px;">
+        <!--<div class="arrow-after-image"></div>-->
+        </div>
+        
+       <style>
+    li p {margin-top:5px; margin-bottom:0; padding-top:0; padding-bottom:0; margin-left:0; padding-left:0;}
+    .donotsell_footer {display:none;}
+</style>
+<p><strong>For New York residents</strong> faced with overwhelming bills, assistance is now available. In the last month alone, <strong>more than <span class='vc_part_a'>9,400</span> residents reached out for help</strong> to learn about the options available to individuals and families in need of lower monthly payments.</p>
+
+<p><strong>Programs to help state residents</strong> are designed to help those facing a genuine personal, family, or business difficulty. This often leads to financial stress that forces consumers to rely on credit accounts to take care of day-to-day expenses.</p>
+
+<p><strong>Most often, it is the unexpected life event</strong> that leads to financial difficulty, such as a reduction in income, medical expenses, or even a business downturn experienced by business owners and sole proprietors.</p>
+
+<p><strong>With inflation continuing to put pressure on finances in 2022</strong>, It is expected that throughout the year, more and more consumers will be reaching out for assistance and taking advantage of programs specifically designed to assist those struggling with unmanageable bills.</p>
+
+        <div class="logo">
+                <img src="https://www.envoyhub.com/images/75-logo-swoosh-r_1.svg" alt="New York Debt Relief" style="max-width:225px;">
+            </div>
+
+        </main>
+        
+        </div>
+        
+<!-- Template middle ends -->
+        
+        <div class="outerContent footer">
+            <footer class="innerContent">
+                <nav>
+                    <ul class="legal_nav">
+                        <li><a class="modal-trigger" data-custom-open="modal-3" href="2/index.html" onClick="load('privacy-policy')">Privacy Policy</a></li>
+                        <li><a class="modal-trigger" data-custom-open="modal-4" href="3/index.html" onClick="load('terms')">Terms of Use</a></li>
+                        <!--<li><a class="modal-trigger" data-custom-open="modal-5" href="4">Do Not Sell My Personal Information</a></li>-->
+    </ul>
+</nav>
+
+<script>
+function load(page) {
+if (page == 'privacy-policy') {
+$( "#modal-3-content" ).load( "/About/privacy-policy.html div#contentLeft" ); 
+}
+if (page == 'terms') {
+$( "#modal-4-content" ).load( "/About/terms.html div#contentLeft" );
+}
+event.preventDefault();
+}
+</script>
+
+<style>
+#contentLeft {width:100%!important;float:none!important; padding-top:0!important;}
+#contentLeft h1{display:none;}
+.modal {
+  display: none;
+  background:#fff;
+  text-align:left; 
+}
+.modal h2 {color:#fff; font-weight:bold; margin-top:0;}
+.modal header {padding:20px;}
+.modal-content {padding:20px; font-size:.85rem!important;}
+.modal-content, .modal-content p, .modal-content li {font-size:.8rem!important;}
+.modal.is-open {
+  display: block;
+  position:absolute;
+  top:20px;
+  left:20px;
+  bottom:20px;
+  right:20px;
+  z-index:999;
+  overflow: auto;
+  width:90%;
+}
+@media screen and (min-width:800px) {
+    .modal.is-open {
+      width:100%;
+      max-width:750px;
+      margin-left: calc(50% - 375px);
+      left:auto;
+      right:auto;
+    }
+.modal-content, .modal-content p, .modal-content li {font-size:.9rem!important;}
+}
+.close-modal {position:absolute;top:20px; right:20px; width:25px; height:25px; background:transparent; opacity:.8; border:none; cursor:pointer; background:url('https://www.envoyhub.com/images/svg/close-x.svg') no-repeat; filter: invert(100%) sepia(12%) saturate(7452%) hue-rotate(
+182deg) brightness(111%) contrast(111%);}
+body.dim:after {
+  pointer-events: none;
+  content: "";
+  display: block;
+  position: fixed;
+  top: 85px;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 998;
+  background-color: rgba(0,0,0,0.6);
+  opacity:0;
+  animation: fadeIn 0.5s forwards;
+}
+@keyframes fadeIn {
+  100% {
+    opacity:1;
+  }
+}
+body.undim:after {
+  content: "";
+  display: block;
+  position: fixed;
+  top: 85px;
+  left: 0;
+  height: 0%;
+  width: 0%;
+  z-index: 998;
+  background-color: rgba(0,0,0,0.6);
+  opacity:1;
+  animation: fadeOut 0.5s forwards;
+}
+@keyframes fadeOut {
+  100% {
+    opacity:0;
+  }
+}
+</style>
+
+
+<div class="modal" id="modal-3" aria-hidden="true">
+  <div tabindex="-1" data-micromodal-close>
+    <div role="dialog" aria-modal="true" aria-labelledby="modal-3-title" >
+      <header style="background:var(--key-color-hex);">
+        <h2 id="modal-3-title">
+          Privacy Policy
+        </h2>
+        <button class="close-modal" aria-label="Close modal" data-custom-close="modal-3"></button>
+      </header>
+      <div class="modal-content" id="modal-3-content"></div>
+    </div>
+  </div>
+</div>
+<!-- / modal -->
+
+
+<div class="modal" id="modal-4" aria-hidden="true">
+  <div tabindex="-1" data-micromodal-close>
+    <div role="dialog" aria-modal="true" aria-labelledby="modal-4-title" >
+      <header style="background:var(--key-color-hex);">
+        <h2 id="modal-4-title">
+         Terms of Use
+        </h2>
+        <button class="close-modal" aria-label="Close modal" data-custom-close="modal-4"></button>
+      </header>
+      <div class="modal-content" id="modal-4-content"></div>
+    </div>
+  </div>
+</div>
+<!-- / modal -->
+
+
+
+
+<div class="modal" id="modal-5" aria-hidden="true">
+  <div tabindex="-1" data-micromodal-close>
+    <div role="dialog" aria-modal="true" aria-labelledby="modal-5-title" >
+      <header style="background:var(--key-color-hex);">
+        <h2 id="modal-5-title">
+         Opt-out
+        </h2>
+        <button class="close-modal" aria-label="Close modal" data-custom-close="modal-5"></button>
+      </header>
+      <div class="modal-content" id="modal-5-content">
+
+        <span id="ccpa" class="ccpa-section">
+        <strong>California-Specific Matters (effective January 1, 2020)</strong><br/>
+        <p>We are based in California and therefore may be subject to the California Consumer Privacy Act of 2018 even with respect to persons who visit our website(s) from other locations. In that context, you may be entitled under that Act (the "CCPA") to request the following as and to the extent they apply to us:</p>
+        <ul>
+        <li>the categories of personal information that we collect about you;</li>
+        <li>the categories of such personal information that we have sold to third parties;</li>
+        <li>the categories of such third parties to whom we have sold such information;</li>
+        <li>the categories of personal information that we have disclosed to third parties that are not covered by the above;</li>
+        </ul>
+        <p>Our webpages allow you to authorize us to collect such personal information and to disclose it to another party so that we can provide you the service(s) you request. We may receive a referral fee for doing so, which might be construed as "selling" your information even if only for the specific purpose that you have otherwise authorized. Thus, you may also be entitled under the CCPA to direct us to refrain from selling such personal information. Moreover, you may be entitled under the CCPA to request that we delete personal information you have provided to us when visiting one of our webpages.</p>
+        <p>To exercise any of the rights under the CCPA described above, please use the links below. Alternatively, you may send an email message to us at <a href="https://www.newyorkdebtrelief.org/cdn-cgi/l/email-protection#502022392631332910353e263f293d3534393137223f25207e333f3d"><span class="__cf_email__" data-cfemail="80f0f2e9f6e1e3f9c0e5eef6eff9ede5e4e9e1e7f2eff5f0aee3efed">[email&#160;protected]</span></a> stating that you want to exercise your rights under the CCPA. To protect you against misuse of your email and/or phone number, we will ask you to provide additional information verifying that the person making the request really is you or is an authorized agent of you before implementing your request under the CCPA.</p>
+        <ul>
+        <li>Opt Out: <a href="https://www.newyorkdebtrelief.org/ccpa/opt-out.html">Click Here</a></li>
+        <li>Opt In: <a href="https://www.newyorkdebtrelief.org/ccpa/opt-in.html">Click Here</a></li>
+        <li>Access: <a href="https://www.newyorkdebtrelief.org/ccpa/access.html">Click Here</a></li>
+        <li>Delete: <a href="https://www.newyorkdebtrelief.org/ccpa/delete.html">Click Here</a></li>
+        </ul>
+        </span>
+        
+        
+        </div>
+    </div>
+  </div>
+</div>
+<!-- / modal -->
+
+
+
+
+
+
+<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="../../cdn.jsdelivr.net/npm/micromodal/dist/micromodal.min.js"></script>
+<script>
+    $(function() {
+        $('#modal-1, #modal-2, #modal-3, #modal-4').appendTo($('body'));
+    });
+    $('.modal-trigger').on('click', function(e) {
+        $('body').addClass('dim');
+        $('html,body,.modal').animate({scrollTop:0},300);
+        e.preventDefault();
+    })
+    $('.close-modal').on('click touchend', function(e) {
+        $('body').removeClass('dim');
+        $('.modal').removeClass('.is-open');
+        e.preventDefault();
+    })
+    $('body').on('keyup', function (e) {
+        if (e.which === 27) { // detect if it is **Esc** button
+            $('body').removeClass('dim');
+            $('.modal').removeClass('.is-open');
+        }
+    });
+    
+</script>
+<script>
+MicroModal.init({
+  openTrigger: 'data-custom-open', // [3]
+  closeTrigger: 'data-custom-close', // [4]
+  openClass: 'is-open', // [5]
+  disableScroll: false, // [6]
+  disableFocus: false, // [7]
+  awaitOpenAnimation: false, // [8]
+  awaitCloseAnimation: false, // [9]
+  debugMode: true // [10]
+});
+</script>
+<!--<script src="https://www.envoyhub.com/js/micromodal.min.js"></script>-->
+                <div class="legal">&copy; 2023 NewYorkDebtRelief.org</div>
+                <div class="disclaimer">
+                    <p>The purpose of this update is to let you know how other New York residents are getting help with unmanageable bills. We hope this gives you the confidence you need to take positive action and improve your financial life.</p>
+            </footer>
+        </div>
+        
+        
+    <!-- Always include these -->
+    <script>
+    // For page speed
+    $(function(){
+        $('[id^=form_iframe]').attr('title', 'Answer these questions');
+        $('img:not([alt])').attr('alt', 'foo');
+    })
+    </script>
+    <script>
+    // For padding body top when branding row is sticky and of unknown height
+    $(function(){
+        var body_pad = $('.outerContent.branding.sticky').outerHeight();
+        $('body').css({'padding-top':body_pad + 'px'});
+    })
+    </script>
+    <script>
+    // For injecting parent css and fonts into form
+    $(function(){
+        $('[id^=form_iframe]').on('load', function(){
+          $(this).contents().find("head").append("<style id='fonts'>@font-face {font-family: 'Assistant'; font-style: normal; font-weight: 400; src: local(''), url('https://www.envoyhub.com/fonts/assistant-v6-latin-regular.woff2') format('woff2'), url('https://www.envoyhub.com/fonts/assistant-v6-latin-regular.woff') format('woff'); font-display:swap;} @font-face { font-family: 'Assistant'; font-style: normal; font-weight: 700; src: local(''), url('https://www.envoyhub.com/fonts/assistant-v6-latin-700.woff2') format('woff2'), url('https://www.envoyhub.com/fonts/assistant-v6-latin-700.woff') format('woff'); font-display:swap;}</style><style>:root {--key-color:8,79,140;--key-color-hex:#084f8c;--accent-color-1:#fdb913;--font-color:#1c1c1c;--button-color-base:224,120,0;--font-family-sans:'Assistant', sans-serif;--font-family-serif:'Roboto Slab', Georgia, serif;--svg-key-color:invert(30%) sepia(24%) saturate(3315%) hue-rotate(181deg) brightness(81%) contrast(102%);} @media screen and (min-device-width:800px) {.change-margin-from-parent {margin-top:0!important;}}</style>");
+        })   
+    })
+    </script>
+    <script>
+    // For mobile menu open/close animation
+    $(function(){
+        $('.mobile-menu-trigger').on('click', function (){
+            var status = $(this).attr('aria-expanded');
+            $(".burger-menu-icon").toggleClass('open');
+            $('nav ul').slideToggle(250);
+            if (status == 'false') {
+              $(this).attr('aria-expanded','true');
+             } else {
+              $(this).attr('aria-expanded','false');
+             }
+        })
+        // only matters on CADR
+        $('.donotsell_footer').appendTo('.legal_nav');
+    })
+    </script>
+    <script>
+    // For focusing on form on cta click
+    $('.form_start').on('click', function(){
+        if ( $('#primary_form').length ) {
+            if ( $('.outerContent.branding.sticky').outerHeight() ) {
+                var scroll_to = $('#primary_form').offset().top - $('.outerContent.sticky').outerHeight();
+            } else {
+                var scroll_to = $('#primary_form').offset().top;
+            }
+            $('html,body').animate({scrollTop:scroll_to},300);
+            $('#primary_form').addClass('form_focus');
+        } else {
+            // optional URL click through if page has no form
+            //window.location.href = "https://NewYorkDebtRelief.org#primary_form";
+        }
+        event.preventDefault();
+    })
+    </script>
+    <script>
+        // For showing input outlines based on user tabbing, adds class 'user-is-tabbing' to body if they start tabbing
+        // switch to :focus-visible in the future
+        function handleFirstTab(e) {
+          if (e.keyCode === 9) {
+            document.body.classList.add('user-is-tabbing');
+            window.removeEventListener('keydown', handleFirstTab);
+          }
+        }
+        window.addEventListener('keydown', handleFirstTab);
+    </script>
+    <script>
+(function(){
+    var s = document.createElement('script'),
+    e = ! document.body ? document.querySelector('head') : document.body;
+    s.src = '../../acsbapp.com/apps/app/dist/js/app.js';
+    s.async = true;
+    s.onload = function(){
+        acsbJS.init({
+            statementLink : '',
+            footerHtml : '',
+            hideMobile : false,
+            hideTrigger : false,
+            language : 'en',
+            position : 'right',
+            leadColor : '#146FF8',
+            triggerColor : '#146FF8',
+            triggerRadius : '50%',
+            triggerPositionX : 'right',
+            triggerPositionY : 'bottom',
+            triggerIcon : 'wheels',
+            triggerSize : 'medium',
+            triggerOffsetX : 20,
+            triggerOffsetY : 20,
+            mobile : {
+                triggerSize : 'small',
+                triggerPositionX : 'right',
+                triggerPositionY : 'bottom',
+                triggerOffsetX : 20,
+                triggerOffsetY : 20,
+                triggerRadius : '50%'
+            }
+        });
+    };
+    e.appendChild(s);
+}());
+</script>
+</body>
+
+<!-- Mirrored from www.newyorkdebtrelief.org/updates/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 09 May 2023 08:53:39 GMT -->
+</html>
